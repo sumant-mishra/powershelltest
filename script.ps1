@@ -1,7 +1,3 @@
-New-Item -ItemType "file" -Path "C:\test.txt"
-
-
-
 Write-Host "Exceuting Powersell Command"
 $location = Get-Location
 Write-Host $location
@@ -11,4 +7,5 @@ $location = Get-Location
 Write-Host $location
 
 Write-Host "running bat file"
+Get-ChildItem
 Start-Process "RUN.bat"
