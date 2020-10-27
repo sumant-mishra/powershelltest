@@ -7,5 +7,5 @@ $location = Get-Location
 Write-Host $location
 
 Write-Host "running bat file"
-Write-Host Get-ChildItem
+Get-ChildItem
 Start-Process "RUN.bat"
