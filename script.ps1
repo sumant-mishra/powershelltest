@@ -8,4 +8,4 @@ Write-Host $location
 
 Write-Host "running bat file"
 Get-ChildItem
-Start-Process "RUN.bat"
+Start-Process "cmd.exe" "RUN.bat"
