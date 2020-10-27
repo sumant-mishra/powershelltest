@@ -11,4 +11,4 @@ $location = Get-Location
 Write-Host $location
 
 Write-Host "running bat file"
-Start-Process RUN.bat
+Start-Process "RUN.bat"
